@@ -66,6 +66,7 @@
   font-size: 102px;
   font-weight: bold;
   z-index: 5;
+  
 }
 
 .header__subtitle {
@@ -226,4 +227,56 @@
 }
 
 
+/* FEYNMAN */
 
+.feynman {
+
+  height: 890px;
+  border: 1px solid black;
+  position: relative;
+  background-color: #f2f2f2;
+}
+
+.feynman__title {
+  margin: 100px auto 0px;
+  width: 648px;
+  border: 1px solid red;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  border: 1px solid fuchsia;
+  margin: 70px auto 0px; 
+  position: relative;
+  width: fit-content;  /* узнать, используется ли это значение */
+  text-align: center;
+  z-index: 2;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  border: 1px solid green;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  color: #2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+
+.feynman__main-illustration {
+  border: 1px solid red;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  order: 3;
+}
