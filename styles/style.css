@@ -31,24 +31,20 @@
   width: 568px;
 }
 
-.logo {
-  position: absolute;
-  z-index: 1;
-  width: 183px;
-  height: 32px;
-  background-image: url(../images/logo_place_header.svg);
-  border: 1px solid red;
-  
-}
 
 .logo_place_header {
+  width: 183px;
+  height: 32px;
   margin-top: 30px;
   margin-left: 64px;
-
+  position: absolute;
+  z-index: 1;
 }
 
+
 /* убирает встроенные отступы у всех p в div */
-div p {
+
+.text-space {
   padding: 0;
   margin: 0;
 }
@@ -60,12 +56,15 @@ div p {
   border: 1px solid green;
   margin-left: 64px;
   align-self: center; 
+  z-index: 5;
+}
+
+.header__title-text {
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  z-index: 5;
-  
 }
+
 
 .header__subtitle {
   position: absolute;
@@ -85,7 +84,7 @@ div p {
   text-decoration: none;
 }
 
-a::after {
+.link_arrow::after {
   content: " →";
 }
 
@@ -170,12 +169,16 @@ a::after {
   width: 60%;
   text-align: center;
   border: 1px solid red;
+}
+
+.section-title_text {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
 }
 
-.section-title_space_digits {
+
+.digits__section-title_space {
   margin: 100px auto 20px;
 }
 
@@ -199,7 +202,7 @@ a::after {
   padding: 0;
 }
 
-.table_space_digits {
+.digits__table_space {
   margin: 0 auto 100px;
 }
 
@@ -208,11 +211,11 @@ a::after {
   flex-direction: column;
 }
 
-.table__cell_size_digits {
+.table__cell_size {
   width: 250px;
 }
 
-.table__cell_space_digits {
+.table__cell_space {
   margin-top: 60px;
 }
 
@@ -246,12 +249,15 @@ a::after {
   margin: 100px auto 0px;
   width: 648px;
   border: 1px solid red;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
   position: relative;
   z-index: 3;
   text-align: center;
+}
+
+.feynman__title-text {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
 }
 
 .feynman__subtitle {
@@ -338,7 +344,7 @@ a::after {
   font-size: 18px;
   font-weight: normal;
   text-align: flex-start;
-  border: 1px solid green;
+  
 }
 
 .kaufman__triangle {
@@ -352,5 +358,106 @@ a::after {
   border: 1px solid red;
 }
 
+/* FOOTER */
+
+.footer {
+  background-color: #1f1f1f;
+  min-height: 350px;
+  overflow: hidden;
+  border: 1px solid green;
+}
+
+.footer__columns {
+  display: flex;
+  color: white;
+  width: 90%;
+  margin: 60px auto 40px;
+  justify-content: space-between;
+  border: 1px solid blue;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  flex-basis: 711px;
+  justify-content: space-between;
+  border: 1px solid green;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+  width: 183px;
+  height: 35px;
+}
 
 
+.footer__author {
+  margin: 18px 0px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid white;
+}
+
+
+.footer__column_content_info {
+  border: 1px solid white;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0px 16px;
+  border: 1px solid red;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__column_content_social {
+  border: 1px solid white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__social-icon {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0px 16px;
+  
+}
+
+.footer__icon_facebook:before {
+  content: url(../images/facebook_color_white.svg);
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer__icon_vk:before {
+  content: url(../images/vk_color_white.svg);
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer__icon_instagram:before {
+  content: url(../images/instagram_color_white.svg);
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
