@@ -24,13 +24,6 @@
   /* выше установили ограничения для секции */
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
-
 .logo_place_header {
   width: 183px;
   height: 32px;
@@ -53,7 +46,7 @@
   flex-direction: row;
   width: 730px;
   margin-left: 64px;
-  align-self: center; 
+  align-self: center;
   z-index: 5;
 }
 
@@ -244,7 +237,7 @@
 }
 
 .feynman__subtitle {
-  margin: 70px auto 0px; 
+  margin: 70px auto 0px;
   position: relative;
   text-align: center;
   z-index: 2;
