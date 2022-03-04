@@ -1,5 +1,8 @@
 .header__title {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;   
   flex-direction: row;
   max-width: 730px;
   margin: 0 0 0 64px;

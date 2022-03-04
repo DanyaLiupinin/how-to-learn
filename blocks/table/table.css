@@ -1,8 +1,12 @@
 .table {
    width: 1100px;
+   display: -webkit-box;
    display: flex;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
    flex-direction: row;
    flex-wrap: wrap;
+   -webkit-box-pack: justify;
    justify-content: space-between;
    list-style: none;
    padding: 0;

@@ -4,5 +4,7 @@
    line-height: 51px;
    font-size: 36px;
    font-weight: normal;
+   width: -webkit-fit-content;
+   width: -moz-fit-content;
    width: fit-content;
 }

@@ -1,6 +1,8 @@
 .two-columns {
    width: 80%;
+   display: -webkit-box;
    display: flex;
    margin: auto;
+   -webkit-box-pack: justify;
    justify-content: space-between;
 }

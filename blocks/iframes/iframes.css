@@ -1,4 +1,6 @@
 .iframes {
+   width: -webkit-fit-content;
+   width: -moz-fit-content;
    width: fit-content;
    margin: auto;
    display: flex;

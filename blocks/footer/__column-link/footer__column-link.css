@@ -1,6 +1,7 @@
 .footer__column-link {
    text-decoration: none;
    color: white;
+   -webkit-transition: opacity .2s linear .2s;
    transition: opacity .2s linear .2s;
 }
 

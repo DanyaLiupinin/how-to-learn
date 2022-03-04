@@ -1,6 +1,9 @@
 .techniques {
    width: 80%;
    margin: auto;
+   display: -webkit-box;
    display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
    flex-direction: column;
 }
