@@ -1,0 +1,9 @@
+.iframes {
+   width: fit-content;
+   margin: auto;
+   display: flex;
+}
+
+.iframe:first-child {
+   margin-right: 20px;
+}

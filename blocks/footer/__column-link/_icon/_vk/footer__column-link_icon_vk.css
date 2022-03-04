@@ -1,0 +1,6 @@
+.footer__column-link_icon_vk:before {
+   content: url(../images/vk_color_white.svg);
+   margin-right: 10px;
+   width: 16px;
+   height: 16px;
+}
