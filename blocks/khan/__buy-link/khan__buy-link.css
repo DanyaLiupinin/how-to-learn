@@ -4,12 +4,12 @@
    text-decoration: none;
    -webkit-transition: opacity .2s linear .2s;
    transition: opacity .2s linear .2s;
-   height: -webkit-fit-content;
-   height: -moz-fit-content;
-   height: fit-content;
    line-height: 42px;
    font-size: 30px;
    font-weight: normal;
+   display: flex;
+   flex-direction: row;
+   align-content: flex-start;
 }
 
 .khan__buy-link::after {
