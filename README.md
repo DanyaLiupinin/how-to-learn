@@ -1,7 +1,7 @@
-# Project: Travel to Russia
+# Project: How to learn
 
 ## Description
-The project is dedicated to teaching methods and techniques for quickly memorizing new information
+The project is dedicated to teaching methods and techniques for quickly memorizing new information.
 
 ## Technologies ##
 - HTML
