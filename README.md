@@ -1,7 +1,31 @@
-# How-to-learn
-## Описание проект
-Данный проект знакомит людей с разными способами самоорганизации и повышения собственной эффективности в учёбе и работе. 
-В проекте применяется базовый инструментарий *html* и *css*. Так же в нём использованы компонентный подход к веб-разработке - *БЭМ*, *flex-верстка* и *анимации*.
-## Инструкция по использованию
-В проекте использованы языки html5 и css3. Проект предназначен для браузеров на движке *webkit*, а так же для браузера *mozilla firefox*. Проект не адаптивен, поэтому **использование на мобильных устройствах нежелательно.**
-                                                                                       
+# Project: Travel to Russia
+
+## Description
+The project is dedicated to teaching methods and techniques for quickly memorizing new information
+
+## Technologies ##
+- HTML
+- CSS
+- Adaptive layout
+- Bem methodology (nested)
+- Flex and Grid layout
+- Cross-browser layout
+- CSS animations
+
+The project is designed for webkit-based browsers, as well as for the mozilla firefox browser.
+
+## Working with the project:
+
+Clone repository:
+
+``` git clone https://github.com/DanyaLiupinin/how-to-learn.git ```
+
+## Link ##
+
+https://danyaliupinin.github.io/how-to-learn/
+
+
+
+                                                                      
+                                                                      
+                                                                 
