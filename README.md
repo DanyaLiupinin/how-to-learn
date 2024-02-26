@@ -1,7 +1,7 @@
 # Project: How to learn
 
 ## Description
-The project is dedicated to teaching methods and techniques for quickly memorizing new information.
+Yandex educational project dedicated to teaching methods and techniques for quickly memorizing new information.
 
 ## Technologies ##
 - HTML
